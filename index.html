@@ -1,707 +1,651 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+
+  <!--
     - favicon
   -->
-    <link
-      rel="shortcut icon"
-      href="./assets/images/logo.ico"
-      type="image/x-icon"
-    />
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
 
-    <!--
+  <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
+  <!--
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!--
     - #MAIN
   -->
 
-    <main>
-      <!--
+  <main>
+    <!--
       - #SIDEBAR
     -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img
-              src="./assets/images/my-avatar.png"
-              alt="Vikas Kulari"
-              width="80"
-            />
-          </figure>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Vikas Kulari" width="80" />
+        </figure>
 
-          <div class="info-content">
-            <h1 class="name" title="Vikas Kulari">Vikas Kulari</h1>
+        <div class="info-content">
+          <h1 class="name" title="Vikas Kulari">Vikas Kulari</h1>
 
-            <p class="title">Software Developer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+          <p class="title">Software Developer</p>
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <a href="mailto:vikassinghkulari@gmail.com" class="contact-link"
-                  >vikassinghkulari@gmail.com</a
-                >
-              </div>
-            </li>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
+              <a href="mailto:vikassinghkulari@gmail.com" class="contact-link">vikassinghkulari@gmail.com</a>
+            </div>
+          </li>
 
-                <a href="tel:+12133522795" class="contact-link"
-                  >+91 9502485931</a
-                >
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
+              <a href="tel:+12133522795" class="contact-link">+91 9502485931</a>
+            </div>
+          </li>
 
-                <time datetime="1982-06-23">September 22, 1999</time>
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
+              <time datetime="1982-06-23">September 22, 1999</time>
+            </div>
+          </li>
 
-                <address>Hyderabad, Telangana, India</address>
-              </div>
-            </li>
-          </ul>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-          <div class="separator"></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
 
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
+              <address>Hyderabad, Telangana, India</address>
+            </div>
+          </li>
+        </ul>
 
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
+        <div class="separator"></div>
 
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
 
-      <!--
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+    <div class="main-content">
+      <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Contact</button>
-            </li>
-          </ul>
-        </nav>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
 
-        <!--
+      <!--
         - #ABOUT
       -->
 
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-          <section class="about-text">
-            <p>
-              Experienced Front-End Developer with a strong ability to design
-              and develop user-centric web applications. My expertise lies in
-              Vue.js, Nuxt.js, and Tailwind CSS, honed through projects like:
-            </p>
+        <section class="about-text">
+          <p>
+            Experienced Front-End Developer with a strong ability to design
+            and develop user-centric web applications. My expertise lies in
+            Vue.js, Nuxt.js, and Tailwind CSS, honed through projects like:
+          </p>
 
-            <ul class="bullet-points">
-              <li>
-                GharPe - Real Estate Platform: Focused on SEO and plugin
-                integration.
-              </li>
-              <li>
-                BuilderPe - Managed Services Platform: Built interactive
-                interfaces with CRM and automation functionalities.
-              </li>
-            </ul>
-
+          <ul class="bullet-points">
             <li>
-              <p>
-                I possess a passion for performance optimization and strive to
-                create applications that are not only visually appealing but
-                also fast and efficient.
-              </p>
+              GharPe - Real Estate Platform: Focused on SEO and plugin
+              integration.
             </li>
-            <h4 class="h4">Here's what sets me apart:</h4>
+            <li>
+              BuilderPe - Managed Services Platform: Built interactive
+              interfaces with CRM and automation functionalities.
+            </li>
+          </ul>
 
-            <ul class="bullet-points">
-              <li>
-                Problem-Solving: I excel at identifying and tackling challenges
-                head-on, delivering solutions that are efficient and scalable.
-              </li>
-              <li>
-                Collaboration: I thrive in team environments, fostering open
-                communication and collaborating effectively with colleagues.
-              </li>
-              <li>
-                Continuous Learning: I'm dedicated to staying at the forefront
-                of the ever-evolving front-end landscape, constantly learning
-                new technologies and trends.
-              </li>
-            </ul>
-          </section>
+          <li>
+            <p>
+              I possess a passion for performance optimization and strive to
+              create applications that are not only visually appealing but
+              also fast and efficient.
+            </p>
+          </li>
+          <h4 class="h4">Here's what sets me apart:</h4>
 
-          <!--
+          <ul class="bullet-points">
+            <li>
+              Problem-Solving: I excel at identifying and tackling challenges
+              head-on, delivering solutions that are efficient and scalable.
+            </li>
+            <li>
+              Collaboration: I thrive in team environments, fostering open
+              communication and collaborating effectively with colleagues.
+            </li>
+            <li>
+              Continuous Learning: I'm dedicated to staying at the forefront
+              of the ever-evolving front-end landscape, constantly learning
+              new technologies and trends.
+            </li>
+          </ul>
+        </section>
+
+        <!--
           - service
         -->
 
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
 
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-dev.svg"
-                    alt="Web development icon"
-                    width="40"
-                  />
-                </div>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
 
-                  <p class="service-item-text">
-                    High-quality development of sites at the professional level.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
-        </article>
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-        <!--
+      <!--
         - #RESUME
       -->
 
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-sharp"></ion-icon>
-              </div>
-
-              <h3 class="h3">Education</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-sharp"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Higher Education: B.Tech - Electronics And Communication
-                  Engineering
-                </h4>
+            <h3 class="h3">Education</h3>
+          </div>
 
-                <span>2018-2022</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Higher Education: B.Tech - Electronics And Communication
+                Engineering
+              </h4>
 
-                <p class="timeline-text">
-                  Narsimha Reddy Engineering College(NRCM)
-                </p>
-              </li>
+              <span>2018-2022</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Intermediate: Mathematics, Physics, and Chemistry (MPC)
-                </h4>
+              <p class="timeline-text">
+                Narsimha Reddy Engineering College(NRCM)
+              </p>
+            </li>
 
-                <span>2018</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Intermediate: Mathematics, Physics, and Chemistry (MPC)
+              </h4>
 
-                <p class="timeline-text">
-                  Sri Chaitanya Junior Kalasala College
-                </p>
-              </li>
+              <span>2018</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Primary school: Secondary School Certificate (SSC)
-                </h4>
+              <p class="timeline-text">
+                Sri Chaitanya Junior Kalasala College
+              </p>
+            </li>
 
-                <span>2016</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Primary school: Secondary School Certificate (SSC)
+              </h4>
 
-                <p class="timeline-text">Sri Chaitanya Techno School</p>
-              </li>
-            </ol>
-          </section>
+              <span>2016</span>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="stats-chart-sharp"></ion-icon>
-              </div>
+              <p class="timeline-text">Sri Chaitanya Techno School</p>
+            </li>
+          </ol>
+        </section>
 
-              <h3 class="h3">Experience</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="stats-chart-sharp"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Software Engineer
-                </h4>
+            <h3 class="h3">Experience</h3>
+          </div>
 
-                <span>Aug 2022 - present</span>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Software Engineer
+              </h4>
 
-                <p class="timeline-text">
-                  Mantra Technologies, Hyderabad, India.
-                </p>
-              </li>
-            </ol>
-          </section>
+              <span>Aug 2022 - present</span>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="bulb-sharp"></ion-icon>
-              </div>
+              <p class="timeline-text">
+                Mantra Technologies, Hyderabad, India.
+              </p>
+            </li>
+          </ol>
+        </section>
 
-              <h3 class="h3">Projects</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="bulb-sharp"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Elevated GharPe's Real Estate Platform (Vue.js, Nuxt.js,
-                  Tailwind CSS):
-                </h4>
+            <h3 class="h3">Projects</h3>
+          </div>
 
-                <p class="timeline-text">
-                  I spearheaded the development of dynamic and user-centric
-                  interfaces, driving a modern, responsive, and accessible user
-                  experience (UX) for GharPe's real estate platform. My focus on
-                  SEO best practices resulted in increased organic search
-                  visibility, attracting more potential clients.
-                </p>
-                <span>Beyond User Experience: </span>
-                <p class="timeline-text">
-                  I actively contributed to performance optimization through
-                  Server-Side Rendering (SSR) and leveraged Vue3 state
-                  management features for efficient data handling and
-                  scalability. My expertise extended beyond the front-end, where
-                  I implemented social media automations to streamline marketing
-                  efforts and developed AI-powered chatbots for enhanced user
-                  engagement. Additionally, I spearheaded the development of 3D
-                  image mapping and navigation, facilitating engaging virtual
-                  property exploration.
-                </p>
-              </li>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Elevated GharPe's Real Estate Platform (Vue.js, Nuxt.js,
+                Tailwind CSS):
+              </h4>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  BuilderPe Real Estate Platform (Vue.js, Nuxt.js, Tailwind CSS)
-                </h4>
+              <p class="timeline-text">
+                I spearheaded the development of dynamic and user-centric
+                interfaces, driving a modern, responsive, and accessible user
+                experience (UX) for GharPe's real estate platform. My focus on
+                SEO best practices resulted in increased organic search
+                visibility, attracting more potential clients.
+              </p>
+              <span>Beyond User Experience: </span>
+              <p class="timeline-text">
+                I actively contributed to performance optimization through
+                Server-Side Rendering (SSR) and leveraged Vue3 state
+                management features for efficient data handling and
+                scalability. My expertise extended beyond the front-end, where
+                I implemented social media automations to streamline marketing
+                efforts and developed AI-powered chatbots for enhanced user
+                engagement. Additionally, I spearheaded the development of 3D
+                image mapping and navigation, facilitating engaging virtual
+                property exploration.
+              </p>
+            </li>
 
-                <span>Enhanced Lead Capture and Nurturing:</span>
-                <ul class="bullet-points">
-                  <li class="timeline-text">
-                    Developed a user-friendly platform that streamlined lead
-                    capture for builders, resulting in a significant increase in
-                    lead generation.
-                  </li>
-                  <li class="timeline-text">
-                    Built functionalities for automated email campaigns and
-                    personalized communication, leading to a higher lead
-                    conversion rate.
-                  </li>
-                </ul>
-                <span> Elevated User Experience and Engagement:</span>
-                <ul class="bullet-points">
-                  <li class="timeline-text">
-                    Designed an interactive platform with features like 360°
-                    property views and VR tours, boosting user engagement time
-                    and increasing lead interest.
-                  </li>
-                  <li class="timeline-text">
-                    Implemented a user-friendly interface for various user
-                    groups (builders, agents, buyers) to facilitate a seamless
-                    property search and communication experience.
-                  </li>
-                </ul>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                BuilderPe Real Estate Platform (Vue.js, Nuxt.js, Tailwind CSS)
+              </h4>
 
-                <span>Streamlined Marketing and Workflows:</span>
-                <ul class="bullet-points">
-                  <li class="timeline-text">
-                    Built functionalities for social media post scheduling and
-                    automated campaigns, enabling realtors to manage marketing
-                    activities efficiently.
-                  </li>
-                  <li class="timeline-text">
-                    Developed a centralized platform with integrated
-                    communication channels (Twilio, WhatsApp), allowing builders
-                    to communicate effectively with leads.
-                  </li>
+              <span>Enhanced Lead Capture and Nurturing:</span>
+              <ul class="bullet-points">
+                <li class="timeline-text">
+                  Developed a user-friendly platform that streamlined lead
+                  capture for builders, resulting in a significant increase in
+                  lead generation.
+                </li>
+                <li class="timeline-text">
+                  Built functionalities for automated email campaigns and
+                  personalized communication, leading to a higher lead
+                  conversion rate.
+                </li>
+              </ul>
+              <span> Elevated User Experience and Engagement:</span>
+              <ul class="bullet-points">
+                <li class="timeline-text">
+                  Designed an interactive platform with features like 360°
+                  property views and VR tours, boosting user engagement time
+                  and increasing lead interest.
+                </li>
+                <li class="timeline-text">
+                  Implemented a user-friendly interface for various user
+                  groups (builders, agents, buyers) to facilitate a seamless
+                  property search and communication experience.
+                </li>
+              </ul>
 
-                  <li class="timeline-text">
-                    Implemented task management and team collaboration features,
-                    improving operational efficiency for builders and agents.
-                  </li>
-                </ul>
-              </li>
-            </ol>
-          </section>
+              <span>Streamlined Marketing and Workflows:</span>
+              <ul class="bullet-points">
+                <li class="timeline-text">
+                  Built functionalities for social media post scheduling and
+                  automated campaigns, enabling realtors to manage marketing
+                  activities efficiently.
+                </li>
+                <li class="timeline-text">
+                  Developed a centralized platform with integrated
+                  communication channels (Twilio, WhatsApp), allowing builders
+                  to communicate effectively with leads.
+                </li>
 
-          <section class="skill">
-            <h3 class="h3 skills-title">My skills</h3>
+                <li class="timeline-text">
+                  Implemented task management and team collaboration features,
+                  improving operational efficiency for builders and agents.
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </section>
 
-            <ul class="skills-list content-card">
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">HTML</h5>
-                  <data value="80">70%</data>
-                </div>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 70%"></div>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Bootstrap</h5>
-                  <data value="80">60%</data>
-                </div>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="80">70%</data>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 60%"></div>
-                </div>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Bootstrap</h5>
+                <data value="80">60%</data>
+              </div>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">JavaScript</h5>
-                  <data value="80">80%</data>
-                </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%"></div>
+              </div>
+            </li>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="80">80%</data>
+              </div>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">TypeScript</h5>
-                  <data value="70">70%</data>
-                </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 70%"></div>
-                </div>
-              </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">TypeScript</h5>
+                <data value="70">70%</data>
+              </div>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Vue.js</h5>
-                  <data value="90">90%</data>
-                </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Nuxt</h5>
-                  <data value="90">90%</data>
-                </div>
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">C Language</h5>
-                  <data value="90">60%</data>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Vue.js</h5>
+                <data value="90">90%</data>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 60%"></div>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Tailwind CSS</h5>
-                  <data value="90">90%</data>
-                </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Nuxt</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">C Language</h5>
+                <data value="90">60%</data>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
-            </ul>
-          </section>
-        </article>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Tailwind CSS</h5>
+                <data value="90">90%</data>
+              </div>
 
-        <!--
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
         - #PORTFOLIO
       -->
 
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
 
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
-              </li>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Web development</button>
-              </li>
-            </ul>
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+          </ul>
 
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>
-                  Select category
-                </div>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
 
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
 
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-              </ul>
-
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>web development</button>
-                </li>
-              </ul>
-            </div>
-
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="GharPe"
-              >
-                <a href="https://gharpe.com" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/gharpe.png"
-                      alt="gharpe"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">GharPe</h3>
-
-                  <p class="project-category">web development</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="https://builderpe.com" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/builderpe.png"
-                      alt="builderpe"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Builderpe</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
               </li>
             </ul>
-          </section>
-        </article>
 
-        <!--
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>web development</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="GharPe">
+              <a href="https://gharpe.com" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gharpe.png" alt="gharpe" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">GharPe</h3>
+
+                <p class="project-category">web development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://builderpe.com" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/builderpe.png" alt="builderpe" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Builderpe</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
         - #CONTACT
       -->
 
-        <article class="contact" data-page="contact">
-          <header>
-            <h2 class="h2 article-title">Contact</h2>
-          </header>
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
 
-          <section class="mapbox" data-mapbox>
-            <figure>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487295.22581163223!2d78.07838586924265!3d17.412077907948387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1715837572048!5m2!1sen!2sin"
-                width="400"
-                height="300"
-                loading="lazy"
-              ></iframe>
-            </figure>
-          </section>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487295.22581163223!2d78.07838586924265!3d17.412077907948387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1715837572048!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
 
-          <section class="contact-form">
-            <h3 class="h3 form-title">Contact Form</h3>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
 
-            <form action="#" class="form" data-form>
-              <div class="input-wrapper">
-                <input
-                  type="text"
-                  name="fullname"
-                  class="form-input"
-                  placeholder="Full name"
-                  required
-                  data-form-input
-                />
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
 
-                <input
-                  type="email"
-                  name="email"
-                  class="form-input"
-                  placeholder="Email address"
-                  required
-                  data-form-input
-                />
-              </div>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
 
-              <textarea
-                name="message"
-                class="form-input"
-                placeholder="Your Message"
-                required
-                data-form-input
-              ></textarea>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-              <button class="form-btn" type="submit" data-form-btn>
-                <ion-icon name="paper-plane"></ion-icon>
-                <span>Send Message</span>
-              </button>
-            </form>
-          </section>
-        </article>
-      </div>
-    </main>
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
 
-    <!--
+  <!--
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
-    <!--
+  <!--
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
 <style>
   .bullet-points {
-    list-style-type: none; /* Remove default disc style */
-    list-style-position: inside; /* Ensures dot aligns with text */
-    padding-left: 1em; /* Adjust indentation as needed */
+    list-style-type: none;
+    /* Remove default disc style */
+    list-style-position: inside;
+    /* Ensures dot aligns with text */
+    padding-left: 1em;
+    /* Adjust indentation as needed */
   }
 
   .bullet-points li::before {
-    content: "•"; /* Dot symbol (adjust as desired) */
-    color: yellow; /* Set dot color (change to white for white dots) */
+    content: "•";
+    /* Dot symbol (adjust as desired) */
+    color: yellow;
+    /* Set dot color (change to white for white dots) */
   }
 </style>
