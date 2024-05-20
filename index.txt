@@ -1,0 +1,72 @@
+Portfolio
+
+# sidebar
+
+alt = Vikas Kulari
+Vikas Kulari
+Software Developer
+
+Location
+Sacramento, California, USA
+
+# navbar
+
+About
+Resume
+Portfolio
+Contact
+
+# about
+
+About me
+
+Experienced Front-End Developer with a strong ability to design and develop user-centric web applications. My expertise lies in Vue.js, Nuxt.js, and Tailwind CSS, honed through projects like:
+
+GharPe - Real Estate Platform: Focused on SEO and plugin integration.
+
+BuilderPe - Managed Services Platform: Built interactive interfaces with CRM and automation functionalities.
+
+I possess a passion for performance optimization and strive to create applications that are not only visually appealing but also fast and efficient.
+
+Here's what sets me apart:
+
+Problem-Solving: I excel at identifying and tackling challenges head-on, delivering solutions that are efficient and scalable.
+Collaboration: I thrive in team environments, fostering open communication and collaborating effectively with colleagues.
+Continuous Learning: I'm dedicated to staying at the forefront of the ever-evolving front-end landscape, constantly learning new technologies and trends.
+## service
+
+What i'm doing
+
+alt = Web development icon
+Web development
+High-quality development of sites at the professional level.
+
+
+My skills
+
+HTML
+70%
+Bootstrap
+60%
+JavaScript
+80%
+TypeScript
+70%
+Vue.js
+90%
+Nuxt
+90%
+C Language
+60%
+Tailwind CSS
+90%
+
+# contact
+
+Contact Form
+
+Full name
+Email address
+Your Message
+
+Send Message
